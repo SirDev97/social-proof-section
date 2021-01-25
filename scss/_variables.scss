@@ -1,0 +1,16 @@
+// Colors
+$veryDarkMagenta: hsl(300, 43%, 22%);
+$softPink: hsl(333, 80%, 67%);
+$darkGrayishMagenta: hsl(303, 10%, 53%);
+$lightGrayishMagenta: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
+// Font sizes
+$fs-400: 0.8125rem;
+$fs-500: 0.0625rem;
+$fs-900: 2rem;
+
+// Font size desktop
+@media (min-width: 90em) {
+  $fs-900: 3rem;
+}

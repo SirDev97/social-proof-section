@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,qFAAI;AAEZ,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,qBAAqB;EAClC,SAAS,EAAE,SAAS;CACrB",
+    "sources": [
+        "../../scss/main.scss",
+        "../../scss/_globals.scss",
+        "../../scss/_variables.scss",
+        "../../scss/_quotes.scss",
+        "../../scss/_ratings.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
