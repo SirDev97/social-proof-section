@@ -6,7 +6,23 @@
   box-sizing: border-box;
 }
 
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
 body {
   font-family: "Spartan", sans-serif;
   font-size: 0.9375rem;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+.container {
+  margin: 1.5rem;
 }
