@@ -6,6 +6,11 @@
           box-sizing: border-box;
 }
 
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
 a,
 a:visited,
 a:hover {
@@ -14,16 +19,100 @@ a:hover {
 
 body {
   font-family: "Spartan", sans-serif;
-  font-size: 0.9375rem;
+  font-size: 0.8125rem;
+  padding-top: 5rem;
+  text-align: center;
 }
 
-h1,
-h2,
-h3 {
-  margin-top: 0;
+h1 {
+  font-size: 2rem;
+  color: #502050;
+  line-height: 1;
+  max-width: 12ch;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 0.9625rem;
+  margin-bottom: 1rem;
 }
 
 .container {
-  margin: 1.5rem;
+  max-width: 70rem;
+  padding: 0 2em;
+  margin: 0 auto;
+}
+
+.flow-content > * + * {
+  margin-top: var(--flow-space, 1rem);
+}
+
+.a-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quotes blockquote {
+  background: #502050;
+  color: #f7f2f7;
+  text-align: left;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quotes .split {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quotes img {
+  width: 3rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.quotes .buyer {
+  font-weight: 700;
+}
+
+.quotes .status {
+  color: #ee68a4;
+}
+
+.quotes .quote {
+  margin-top: 2rem;
+}
+
+.reviews li {
+  background: #f7f2f7;
+  color: #502050;
+  font-weight: 700;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviews li::before {
+  content: "";
+  width: 100px;
+  height: 1rem;
+  margin: 0 auto;
+  display: block;
+  background-image: url("/images/icon-star.svg");
+  margin-bottom: 0.5rem;
+  background-repeat: space;
 }
 /*# sourceMappingURL=main.css.map */

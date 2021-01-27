@@ -1,0 +1,35 @@
+.quotes {
+  blockquote {
+    background: $veryDarkMagenta;
+    color: $lightGrayishMagenta;
+    text-align: left;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .split {
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    width: 3rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+
+  .buyer {
+    font-weight: 700;
+  }
+
+  .status {
+    color: $softPink;
+  }
+
+  .quote {
+    margin-top: 2rem;
+  }
+}

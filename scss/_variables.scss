@@ -7,10 +7,10 @@ $white: hsl(0, 0%, 100%);
 
 // Font sizes
 $fs-400: 0.8125rem;
-$fs-500: 0.0625rem;
+$fs-500: 0.9625rem;
 $fs-900: 2rem;
 
 // Font size desktop
-@media (min-width: 90em) {
-  $fs-900: 3rem;
-}
+// @media (min-width: 90em) {
+//   $fs-900: 3rem;
+// }
