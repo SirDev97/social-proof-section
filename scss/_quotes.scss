@@ -1,4 +1,14 @@
 .quotes {
+  li {
+    &:nth-child(2) {
+      transform: translateY(3rem);
+    }
+
+    &:nth-child(3) {
+      transform: translateY(6rem);
+    }
+  }
+
   blockquote {
     background: $veryDarkMagenta;
     color: $lightGrayishMagenta;
@@ -8,11 +18,7 @@
     max-width: 25rem;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .split {
-    display: flex;
-    align-items: center;
+    height: 100%;
   }
 
   img {
